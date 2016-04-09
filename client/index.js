@@ -32,7 +32,6 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 if (process.env.CLIENT) {
-  console.log('client')
   render(
     <Provider store={store} key="provider">
       <div>
